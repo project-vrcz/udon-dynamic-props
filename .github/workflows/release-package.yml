@@ -75,7 +75,7 @@ jobs:
         run: |
           case $PACKAGE_NAME in
             "xyz.misakal.vpm.udon-dynamic-props")
-              change_log_name="CHANGELOG-base.md"
+              change_log_name="CHANGELOG.md"
               ;;
             *)
               echo "Unknown package: $PACKAGE_NAME"
