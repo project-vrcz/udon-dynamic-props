@@ -4,6 +4,7 @@ using UdonSharp;
 
 namespace UdonDynamicProps.Runtime
 {
+    [UdonBehaviourSyncMode(BehaviourSyncMode.None)]
     public sealed class UdonDynamicPropsManager : UdonSharpBehaviour
     {
         public MisakaLocalPlayerObjectPool playerObjectPool;
