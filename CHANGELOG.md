@@ -7,4 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Assign `PhysBoneCollider` to all player.
+  - `UdonDynamicPropsSetColliders` component to add players's `PhysBoneColliders` to marked PhysBone `colliders` list during build.
+- `UdonDynamicPropsToggleCollidersStationBinding` to disable player's `PhysBoneCollider` when player enter station.
+
 [unreleased]: https://github.com/project-vrcz/udon-dynamic-props/compare/HEAD...HEAD
