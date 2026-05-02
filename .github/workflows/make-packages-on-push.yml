@@ -1,0 +1,17 @@
+name: Make Packages on Push
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  make-package:
+    strategy:
+      matrix:
+        package:
+          - xyz.misakal.vpm.udon-dynamic-props
+
+    uses: ./.github/workflows/make-package.yml
+    with:
+      ref: ${{ github.sha }}
+      package: ${{ matrix.package }}
