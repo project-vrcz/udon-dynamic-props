@@ -1,0 +1,16 @@
+{
+    "name": "UdonDynamicProps.Editor",
+    "rootNamespace": "UdonDynamicProps.Editor",
+    "references": ["GUID:138933dc310de02499a1c5bc3945c485","GUID:84265b35cca3905448e623ef3903f0ff","GUID:3c1bc1267eab5884ebe7f232c09ee0d9","GUID:99835874ee819da44948776e0df4ff1d"],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

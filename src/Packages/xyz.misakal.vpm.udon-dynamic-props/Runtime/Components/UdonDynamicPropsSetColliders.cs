@@ -1,15 +1,14 @@
 ﻿using UnityEditor;
 using UnityEngine;
-using VRC.Dynamics;
 using VRC.SDK3.Dynamics.PhysBone.Components;
 using VRC.SDKBase;
 
-namespace UdonDynamicProps.Runtime.InteractiveDoor
+namespace UdonDynamicProps.Runtime.Components
 {
     [RequireComponent(typeof(VRCPhysBone))]
-    public class InteractiveDoor : MonoBehaviour, IEditorOnly
+    public class UdonDynamicPropsSetColliders : MonoBehaviour, IEditorOnly
     {
-        internal void Setup(VRCPhysBoneColliderBase[] colliders)
+        internal void Setup(VRCPhysBoneCollider[] colliders)
         {
             var physBones = GetComponent<VRCPhysBone>();
             physBones.colliders.Clear();

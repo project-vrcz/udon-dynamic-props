@@ -19,7 +19,7 @@ MonoBehaviour:
   compiledVersion: 2
   behaviourSyncMode: 1
   hasInteractEvent: 0
-  scriptID: 1405017849247726389
+  scriptID: 4765912796195075659
   serializationData:
     SerializedBytes: 
     ReferencedUnityObjects: []
@@ -59,7 +59,7 @@ MonoBehaviour:
       Data: 3|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: MisakaLab.ObjectPool.MisakaLocalPlayerObject, UdonDynamicProps.Runtime
+      Data: UdonDynamicProps.Runtime.ObjectPool.MisakaLocalPlayerObject, UdonDynamicProps.Runtime
     - Name: 
       Entry: 8
       Data: 
