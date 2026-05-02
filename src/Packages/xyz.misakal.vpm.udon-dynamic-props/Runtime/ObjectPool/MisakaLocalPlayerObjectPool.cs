@@ -1,18 +1,15 @@
 ﻿using System;
 using JetBrains.Annotations;
-using MisakaLab.Common;
+using UdonDynamicProps.Runtime.Common;
 using UdonSharp;
+using UnityEditor;
 using UnityEngine;
 using VRC.SDK3.Data;
 using VRC.SDKBase;
 
-#if !COMPILER_UDONSHARP && UNITY_EDITOR
-using UnityEditor;
-#endif
-
 // ReSharper disable ArrangeObjectCreationWhenTypeEvident
 // ReSharper disable UseArrayEmptyMethod
-namespace MisakaLab.ObjectPool
+namespace UdonDynamicProps.Runtime.ObjectPool
 {
     [UdonBehaviourSyncMode(BehaviourSyncMode.None)]
     public sealed class MisakaLocalPlayerObjectPool : UdonSharpBehaviour

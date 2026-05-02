@@ -59,7 +59,7 @@ MonoBehaviour:
       Data: 3|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: MisakaLab.ObjectPool.MisakaLocalPlayerObjectPool, Assembly-CSharp
+      Data: MisakaLab.ObjectPool.MisakaLocalPlayerObjectPool, UdonDynamicProps.Runtime
     - Name: 
       Entry: 8
       Data: 

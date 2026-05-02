@@ -114,7 +114,7 @@ MonoBehaviour:
     - Name: 
       Entry: 1
       Data: MisakaLab.ObjectPool.PlayerObjectExtensions.MisakaLocalPlayerObjectExtension[],
-        Assembly-CSharp
+        UdonDynamicProps.Runtime
     - Name: 
       Entry: 8
       Data: 

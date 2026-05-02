@@ -1,8 +1,8 @@
-﻿using MisakaLab.ObjectPool;
+﻿using UdonDynamicProps.Runtime.ObjectPool;
 using UdonSharp;
 using VRC.SDKBase;
 
-namespace MisakaLab.InteractiveDoor
+namespace UdonDynamicProps.Runtime.InteractiveDoor
 {
     [UdonBehaviourSyncMode(BehaviourSyncMode.None)]
     public sealed class InteractiveSwingChair : UdonSharpBehaviour

@@ -1,10 +1,10 @@
 ﻿using JetBrains.Annotations;
-using MisakaLab.ObjectPool.PlayerObjectExtensions;
+using UdonDynamicProps.Runtime.ObjectPool.PlayerObjectExtensions;
 using UdonSharp;
 using VRC.SDKBase;
 
 // ReSharper disable UseArrayEmptyMethod
-namespace MisakaLab.ObjectPool
+namespace UdonDynamicProps.Runtime.ObjectPool
 {
     [UdonBehaviourSyncMode(BehaviourSyncMode.None)]
     public sealed class MisakaLocalPlayerObject : UdonSharpBehaviour

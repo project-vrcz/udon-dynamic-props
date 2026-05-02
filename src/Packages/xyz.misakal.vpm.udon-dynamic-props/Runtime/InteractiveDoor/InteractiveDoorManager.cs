@@ -1,16 +1,13 @@
 ﻿using System;
 using System.Linq;
-using MisakaLab.ObjectPool;
+using UdonDynamicProps.Runtime.ObjectPool;
+using UnityEditor;
 using UnityEngine;
 using VRC.Dynamics;
 using VRC.SDKBase;
-
-#if UNITY_EDITOR
-using UnityEditor;
 using VRC.SDKBase.Editor.BuildPipeline;
-#endif
 
-namespace MisakaLab.InteractiveDoor
+namespace UdonDynamicProps.Runtime.InteractiveDoor
 {
     public sealed class InteractiveDoorManager : MonoBehaviour, IEditorOnly
     {

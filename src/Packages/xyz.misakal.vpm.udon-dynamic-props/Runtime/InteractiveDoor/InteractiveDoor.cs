@@ -4,7 +4,7 @@ using VRC.Dynamics;
 using VRC.SDK3.Dynamics.PhysBone.Components;
 using VRC.SDKBase;
 
-namespace MisakaLab.InteractiveDoor
+namespace UdonDynamicProps.Runtime.InteractiveDoor
 {
     [RequireComponent(typeof(VRCPhysBone))]
     public class InteractiveDoor : MonoBehaviour, IEditorOnly

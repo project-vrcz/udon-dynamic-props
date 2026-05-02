@@ -1,6 +1,6 @@
 {
-    "name": "MisakaLab.UdonDynamicProps.Runtime",
-    "rootNamespace": "MisakaLab.UdonDynamicProps",
+    "name": "UdonDynamicProps.Runtime",
+    "rootNamespace": "UdonDynamicProps.Runtime",
     "references": [
         "GUID:99835874ee819da44948776e0df4ff1d"
     ],

@@ -2,7 +2,7 @@
 using UdonSharp;
 using VRC.SDKBase;
 
-namespace MisakaLab.ObjectPool.PlayerObjectExtensions
+namespace UdonDynamicProps.Runtime.ObjectPool.PlayerObjectExtensions
 {
     [UdonBehaviourSyncMode(BehaviourSyncMode.None)]
     public abstract class MisakaLocalPlayerObjectExtension : UdonSharpBehaviour
