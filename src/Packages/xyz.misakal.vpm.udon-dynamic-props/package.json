@@ -1,0 +1,24 @@
+{
+  "name": "xyz.misakal.vpm.udon-dynamic-props",
+  "displayName": "Udon Dynamic Props",
+  "version": "0.1.0",
+  "hideInEditor": false,
+  "description": "Props made with Udon and World Dynamics components (PhysBones, Contacts, VRC Constraints).",
+  "unity": "2022.3",
+  "author": {
+    "name": "project-vrcz"
+  },
+  "changelogUrl": "https://github.com/project-vrcz/udon-dynamic-props/releases",
+  "documentationUrl": "https://github.com/project-vrcz/udon-dynamic-props",
+  "license": "LGPL-3.0-only",
+  "licensesUrl": "https://github.com/project-vrcz/udon-dynamic-props/blob/main/LICENSE",
+  "keywords": [
+    "vrchat",
+    "physbone",
+    "dynamic",
+    "props"
+  ],
+  "vpmDependencies": {
+    "com.vrchat.worlds": "^3.10.2"
+  }
+}
