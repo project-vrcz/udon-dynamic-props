@@ -10,7 +10,7 @@
   },
   "changelogUrl": "https://github.com/project-vrcz/udon-dynamic-props/releases",
   "documentationUrl": "https://github.com/project-vrcz/udon-dynamic-props",
-  "license": "LGPL-3.0-only",
+  "license": "MIT",
   "licensesUrl": "https://github.com/project-vrcz/udon-dynamic-props/blob/main/LICENSE",
   "keywords": [
     "vrchat",
