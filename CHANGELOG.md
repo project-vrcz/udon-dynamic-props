@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- New `AdaptableStationHeight` component to adjust `VRCStation` player enter position to fit player.
+
 ## [0.1.2] - 2026-05-05
 
 ### Fixed
