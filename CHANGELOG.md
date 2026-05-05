@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- Fix compile error caused by `EditorUtility` being referenced outside of `#if UNITY_EDITOR` in `UdonDynamicPropsSetColliders`.
+- Fix compile error during build. [`#2`](https://github.com/project-vrcz/udon-dynamic-props/pull/2)
 
 ## [0.1.1] - 2026-05-02
 
