@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.3] - 2026-05-05
+
 ### Added
 
 - New `AdaptableStationHeight` component to adjust `VRCStation` player enter position to fit player.
@@ -35,7 +37,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - `UdonDynamicPropsSetColliders` component to add players's `PhysBoneColliders` to marked PhysBone `colliders` list during build.
 - `UdonDynamicPropsToggleCollidersStationBinding` to disable player's `PhysBoneCollider` when player enter station.
 
-[unreleased]: https://github.com/project-vrcz/udon-dynamic-props/compare/base-v0.1.2...HEAD
+[unreleased]: https://github.com/project-vrcz/udon-dynamic-props/compare/base-v0.1.3...HEAD
+[0.1.3]: https://github.com/project-vrcz/udon-dynamic-props/compare/base-v0.1.2...base-v0.1.3
 [0.1.2]: https://github.com/project-vrcz/udon-dynamic-props/compare/base-v0.1.1...base-v0.1.2
 [0.1.1]: https://github.com/project-vrcz/udon-dynamic-props/compare/base-v0.1.0...base-v0.1.1
 [0.1.0]: https://github.com/project-vrcz/udon-dynamic-props/releases/tag/base-v0.1.0
