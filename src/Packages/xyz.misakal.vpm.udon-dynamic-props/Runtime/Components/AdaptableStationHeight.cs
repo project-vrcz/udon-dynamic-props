@@ -86,10 +86,11 @@ namespace UdonDynamicProps.Runtime.Components
 
             var leftBonePosition = _playerInStation.GetBonePosition(referenceLeftUpperLegBone);
             var rightBonePosition = _playerInStation.GetBonePosition(referenceRightUpperLegBone);
-            var bonePosition = (leftBonePosition + rightBonePosition) / 2f;
+            var bonePosition = ((leftBonePosition + rightBonePosition) / 2f);
 
             var originPosition = _playerInStation.GetTrackingData(originTrackingDataType).position;
-            var offset = originPosition - bonePosition + additionalOffset;
+            var boneOffset = originPosition - bonePosition;
+            var offset = new Vector3(0, boneOffset.y, 0) + additionalOffset;
             var scaledOffset = InverseScale(offset, stationEnterPosition.lossyScale);
 
             stationEnterPosition.transform.localPosition = _initialLocalPosition + scaledOffset;
