@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- `AdaptableStationHeight` disable auto adjust when player eye height larger than max allowed value.
+
 ## [0.1.4] - 2026-05-07
 
 ### Fixed
