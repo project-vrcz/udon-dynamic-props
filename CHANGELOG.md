@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- `AdaptableStationHeight` give random offset from station position in x,z axis (only update y axis now).
+
 ## [0.1.5] - 2026-05-07
 
 ### Added
