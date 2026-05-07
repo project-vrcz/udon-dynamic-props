@@ -1,7 +1,7 @@
 {
   "name": "xyz.misakal.vpm.udon-dynamic-props",
   "displayName": "Udon Dynamic Props",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "hideInEditor": false,
   "description": "Props made with Udon and World Dynamics components (PhysBones, Contacts, VRC Constraints).",
   "unity": "2022.3",
