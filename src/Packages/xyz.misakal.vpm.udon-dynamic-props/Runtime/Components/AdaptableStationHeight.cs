@@ -15,6 +15,7 @@ namespace UdonDynamicProps.Runtime.Components
         public VRCPlayerApi.TrackingDataType originTrackingDataType = VRCPlayerApi.TrackingDataType.Origin;
 
         public Vector3 additionalOffset;
+        public float maxAutoAdjustAllowedEyeHeight = 1.4f;
 
         private Vector3 _initialLocalPosition;
         [CanBeNull] private VRCPlayerApi _playerInStation;
@@ -54,6 +55,12 @@ namespace UdonDynamicProps.Runtime.Components
 
         private void BeginUpdateStationPosition()
         {
+            if (_playerInStation == null || !Utilities.IsValid(_playerInStation))
+                return;
+
+            if (_playerInStation.GetAvatarEyeHeightAsMeters() > maxAutoAdjustAllowedEyeHeight)
+                return;
+
             UpdateStationPositionFromEyeHeight();
             SendCustomEventDelayedSeconds(nameof(_UpdateStationPosition), 1.2f);
         }
