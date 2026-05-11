@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.7] - 2026-05-11
+
 ### Added
 
 - `PlayOnContact` component to play audio clip when `OnContactEnter` or `OnContactExit`.
@@ -59,7 +61,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - `UdonDynamicPropsSetColliders` component to add players's `PhysBoneColliders` to marked PhysBone `colliders` list during build.
 - `UdonDynamicPropsToggleCollidersStationBinding` to disable player's `PhysBoneCollider` when player enter station.
 
-[unreleased]: https://github.com/project-vrcz/udon-dynamic-props/compare/base-v0.1.6...HEAD
+[unreleased]: https://github.com/project-vrcz/udon-dynamic-props/compare/base-v0.1.7...HEAD
+[0.1.7]: https://github.com/project-vrcz/udon-dynamic-props/compare/base-v0.1.6...base-v0.1.7
 [0.1.6]: https://github.com/project-vrcz/udon-dynamic-props/compare/base-v0.1.5...base-v0.1.6
 [0.1.5]: https://github.com/project-vrcz/udon-dynamic-props/compare/base-v0.1.4...base-v0.1.5
 [0.1.4]: https://github.com/project-vrcz/udon-dynamic-props/compare/base-v0.1.3...base-v0.1.4
