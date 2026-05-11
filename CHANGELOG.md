@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- `PlayOnContact` component to play audio clip when `OnContactEnter` or `OnContactExit`.
+
 ## [0.1.6] - 2026-05-07
 
 ### Fixed
